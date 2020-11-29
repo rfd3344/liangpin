@@ -1,0 +1,40 @@
+body {
+		font-size: 15px;
+}
+
+
+.site-header {
+		background: #251802;
+		padding: 0 1em;
+}
+
+
+
+.site-header .logo {
+		display:inline-block;
+		width: 	100px;
+}
+
+.site-header #site-navigation {
+    display: inline-block;
+    width: calc(100% - 200px);
+		text-align: center;
+		margin-bottom: 25px;
+    vertical-align: bottom;
+}
+
+.site-header #site-navigation li a {
+		color: 	#fbfaf7;
+		font-weight: 500;
+		margin-right: 20px;
+}
+.site-header #site-navigation li a:before {
+		content: 'arrow_forward_ios';
+		font-family: 'Material Icons';    
+		position: relative;
+    top: 3px;
+}
+
+.site-header #site-navigation li.current_page_item a {
+		color: #6f5725;
+}

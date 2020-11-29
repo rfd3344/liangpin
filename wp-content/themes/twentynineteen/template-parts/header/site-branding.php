@@ -8,7 +8,12 @@
  */
 ?>
 <div class="site-branding">
-
+	<!-- themes\twentynineteen\template-parts\header\site-branding.php -->
+	<div class="logo"> 
+		<a href="<?php echo home_url(); ?>" rel="home">
+			<img src="https://avatars1.githubusercontent.com/u/18899535?s=460&v=4" />
+		</a>
+	</div>
 	<?php if ( has_custom_logo() ) : ?>
 		<div class="site-logo"><?php the_custom_logo(); ?></div>
 	<?php endif; ?>
