@@ -27,7 +27,7 @@ define('DB_USER', 'liangpin');
 define('DB_PASSWORD', 'caoxuhui1991');
 define('DB_HOST', 'localhost');
 define('DB_COLLATE', 'utf8_general_ci');
-define('WP_CONTENT_DIR', 'C:/Users/eric/Documents/rfd3344/xampp/htdocs/liangpin/wp-content');
+define('WP_CONTENT_DIR', '/mnt/liangpin/wp-content');
 
 /**#@+
  * Authentication Unique Keys and Salts.
