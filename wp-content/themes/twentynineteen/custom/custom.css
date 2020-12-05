@@ -47,6 +47,11 @@ h1,h2,h3,h4,h5 {
 		color: #6f5725;
 }
 
+.site-content {
+	min-height: calc(100vh - 200px);
+}
+
+
 footer.site-footer {
 	z-index: 1;
 	box-shadow: 12px 10px 11px 25px #696f80;
@@ -71,14 +76,20 @@ footer.site-footer .textwidget .links a:before {
     top: 3px;
 }
 
-.home #content {
+.home #content{
 	background: url(https://raw.githubusercontent.com/rfd3344/jh-static/master/liangpin/bg1.jpg);
 	background-size: cover;
 	position: relative;
+	min-height: 600px;
 }
-
+/*
 .home #content .homePageEditor {
 	min-height: 600px;
+} */
+
+
+.home .site-content .entry-content {
+	background: unset;
 }
 
 .home #content .homePageEditor .logo {
@@ -118,4 +129,11 @@ footer.site-footer .textwidget .links a:before {
 .home #content .homePageEditor .articleLinks ul a{
 	color: #796c4b;
 	padding-left: 10px;
+}
+
+.companyProfileTable table tr {
+	border-bottom: 1px solid;
+}
+.companyProfileTable table tr td {
+	border: 0;
 }
