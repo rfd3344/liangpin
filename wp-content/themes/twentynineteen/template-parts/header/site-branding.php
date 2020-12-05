@@ -9,9 +9,9 @@
 ?>
 <div class="site-branding">
 	<!-- themes\twentynineteen\template-parts\header\site-branding.php -->
-	<div class="logo"> 
+	<div class="logo">
 		<a href="<?php echo home_url(); ?>" rel="home">
-			<img src="https://avatars1.githubusercontent.com/u/18899535?s=460&v=4" />
+			<img src="https://raw.githubusercontent.com/rfd3344/jh-static/master/liangpin/logo.jpg" />
 		</a>
 	</div>
 	<?php if ( has_custom_logo() ) : ?>
