@@ -2,6 +2,14 @@ body {
 		font-size: 15px;
 }
 
+h1,h2,h3,h4,h5 {
+	margin: 0;
+}
+
+.material-icons {
+  transform: translateY(4px);
+  padding-right: 5px;
+}
 
 .site-header {
 		background: #251802;
@@ -30,11 +38,84 @@ body {
 }
 .site-header #site-navigation li a:before {
 		content: 'arrow_forward_ios';
-		font-family: 'Material Icons';    
+		font-family: 'Material Icons';
 		position: relative;
     top: 3px;
 }
 
 .site-header #site-navigation li.current_page_item a {
 		color: #6f5725;
+}
+
+footer.site-footer {
+	z-index: 1;
+	box-shadow: 12px 10px 11px 25px #696f80;
+	position: relative;
+}
+
+footer.site-footer .textwidget {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+footer.site-footer .textwidget .links a{
+	margin: 0 10px;
+	color: #6f5725;
+}
+
+footer.site-footer .textwidget .links a:before {
+    content: 'arrow_forward_ios';
+    font-family: 'Material Icons';
+    position: relative;
+    top: 3px;
+}
+
+.home #content {
+	background: url(https://raw.githubusercontent.com/rfd3344/jh-static/master/liangpin/bg1.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.home #content .homePageEditor {
+	min-height: 600px;
+}
+
+.home #content .homePageEditor .logo {
+	background: #271902;
+	position: absolute;
+	left: 40%;
+	height: 100%;
+	top: 0;
+	padding: 20px;
+}
+
+
+.home #content .homePageEditor .description {
+	position: absolute;
+	left: 70%;
+	font-size: 1.8em;
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+
+.home #content .homePageEditor .articleLinks {
+	position: absolute;
+	background: white;
+	left: 70%;
+	bottom: 10%;
+	opacity: 0.5;
+	min-width: 300px;
+	padding: 10px 20px;
+	color: #796c4b;
+}
+
+.home #content .homePageEditor .articleLinks ul {
+	list-style: none;
+	padding: 0;
+}
+.home #content .homePageEditor .articleLinks ul a{
+	color: #796c4b;
+	padding-left: 10px;
 }
