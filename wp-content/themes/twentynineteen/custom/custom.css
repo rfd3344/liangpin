@@ -19,8 +19,8 @@ h1,h2,h3,h4,h5 {
 
 
 .site-header .logo {
-		display:inline-block;
-		width: 	100px;
+	display:inline-block;
+	width: 50px;
 }
 
 .site-header #site-navigation {
@@ -80,7 +80,6 @@ footer.site-footer .textwidget .links a:before {
 	background: url(https://raw.githubusercontent.com/rfd3344/jh-static/master/liangpin/bg1.jpg);
 	background-size: cover;
 	position: relative;
-	min-height: 600px;
 }
 /*
 .home #content .homePageEditor {
