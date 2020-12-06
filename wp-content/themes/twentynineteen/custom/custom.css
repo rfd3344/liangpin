@@ -85,6 +85,7 @@ footer.site-footer .textwidget .links a:before {
 	background: url(https://raw.githubusercontent.com/rfd3344/jh-static/master/liangpin/bg1.jpg);
 	background-size: cover;
 	position: relative;
+	background-position: center;
 }
 /*
 .home #content .homePageEditor {
