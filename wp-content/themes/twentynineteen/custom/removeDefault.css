@@ -20,3 +20,7 @@ main footer.entry-footer {
     /*margin: unset;*/
   }
 }
+#colophon .widget-column .widget {
+	margin-right: unset;
+    width: 100%;
+}
