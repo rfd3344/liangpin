@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5 {
 }
 
 #page {
-	max-width: 1000px;
+	max-width: 1200px;
     margin: auto;
 }
 
@@ -101,7 +101,7 @@ footer.site-footer .textwidget .links a:before {
 .home #content .homePageEditor .logo {
 	background: #271902;
 	position: absolute;
-	left: 40%;
+	left: calc(50% - 45px);
 	height: 100%;
 	top: 0;
 	padding: 20px;
