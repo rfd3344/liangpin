@@ -90,7 +90,9 @@ footer.site-footer .textwidget .links a:before {
 .home .site-content .entry-content {
 	background: unset;
 }
-
+.home #content .homePageEditor {
+	min-height: 600px;
+}
 .home #content .homePageEditor .logo {
 	background: #271902;
 	position: absolute;
@@ -98,6 +100,20 @@ footer.site-footer .textwidget .links a:before {
 	height: 100%;
 	top: 0;
 	padding: 20px;
+}
+
+.home #content .homePageEditor .companyName {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	color: white;
+	margin: auto;
+}
+
+.home #content .homePageEditor .companyName {
+
+	writing-mode: vertical-rl;
+    text-orientation: upright;
+	color: white;
 }
 
 
